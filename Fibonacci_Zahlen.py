@@ -38,10 +38,6 @@ def fibonacciSequenzExtender(fibonacciSequenzPosition, fibonacciSequenzLastIndex
 startTime = datetime.now()
 fibonacciSequenz = np.ulonglong([0, 1, 1])
 
-#One by One manually
-#fibonacciInput = input("What position of the Fibonacci sequenz is interesting to you? \n")
-#print(fibonacci(int(fibonacciInput), fibonacciSequenz))
-
 #With random number generator
 loopStart = 0
 loopEnd = 523
